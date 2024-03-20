@@ -1,10 +1,10 @@
 body{
     margin-top:0;
+    margin-bottom:0;
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    min-width: 100vw;;
     flex: 1;
     font-family:'Times New Roman', Times, serif;
 }
@@ -31,35 +31,126 @@ body{
 }
 .right-side{
     display: flex;
-    gap:20px;
-    flex-wrap:wrap;
     font-size: 18px;
     color:#aaacb0;
     align-items: flex-end;
+    gap:50px;
 }
 .top{
     display: flex;
+    flex: 1 1 0;
     max-width:60vw;
     gap:40px;
+    margin-bottom: 80px;
 }
 .img1{
-    width: 450px;
+    width: 100%; height: auto; 
+
 }
 .title1{
     font-size:48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color:#F9FAf8;
 }
 .left-side2{
     color:#aaacb0;
     font-size:18px;
-
+    display: flex;
+    flex-direction: column;
+    max-width:30vw;
 }
-button{
+.button{
     color:#F9FAf8;
     background-color: #3882F6;
-    padding:10px;
-    outline: 3px ridge #3882F6;
-    border-radius:1rem;
+    padding:4px;
+    padding-bottom:8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius:.5rem;
+    text-align: center;
+    width: fit-content;
+    margin-top:15px;
+}
+.button:hover{
+    background-color: rgb(65, 100, 168);
+}
+.sec2{
+    padding-bottom: 40px;
+    max-width: 60vw;
+}
+.title2{
+    font-size: 36px;
+    font-weight:850;
+    color:#1F2937;
+    padding:30px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    gap: 50px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.info{
+    max-width: 170px;
+    display: flex;
+    flex-direction: column;
+}
+.text2{
+    padding-top:10px;
+    text-align:center;
+}
+.img2{
+    height:119px;
+    outline: 5px ridge rgb(0, 0, 0);
+    border-radius:.4rem;
+}
+.sec3{
+    background-color: #E5E7EB;
+    padding:59px;
+    max-width: 60vw;
+}
+.full-bleed2 {
+    box-shadow: 0 0 0 100vmax #E5E7EB;  
+    clip-path: inset(0 -100vmax); 
+}
+.quote{
+    font-size: 36px;
+    color:#1F2937;
+    font-style:italic;
+    font-weight: light;
+}
+.name{
+    font-size: larger;
+    font-weight: 600;
+    text-align: end;
+}
+.sec4{
+    display: flex;
+    max-width: 60vw;
+    justify-content: space-around;
+    width: 100vw;
+    background-color:#3882F6;
+    padding:25px;
+    padding-right:0;
+    padding-left:0;
+    margin:50px;
+    border-radius:.4rem;
+    align-items: center;
+}
+.right-side{
+    padding:auto
+}
+.footer{
+    color:#aaacb0;
+    background-color:#1F2937;
+    padding:30px;
+    display: flex;
+    flex:1 1 0;
 
 }
+.full-bleed3{
+    box-shadow: 0 0 0 100vmax #1F2937;  
+    clip-path: inset(0 -100vmax); 
+}
+  
