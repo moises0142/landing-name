@@ -9,11 +9,11 @@ body{
     font-family:'Times New Roman', Times, serif;
 }
 .header{
-    min-width: 50vw;;
+    min-width: 80vw;;
     display: flex;
     justify-content: space-between;    
     padding:10px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
 .sec1{
     background-color: #1F2937;    
@@ -36,10 +36,16 @@ body{
     align-items: flex-end;
     gap:50px;
 }
+.link:hover {
+    transform:scale(1.05);
+    color: rgb(39, 81, 167);
+}
+    
 .top{
     display: flex;
+    justify-content: center;
     flex: 1 1 0;
-    max-width:60vw;
+    max-width:80vw;
     gap:40px;
     margin-bottom: 80px;
 }
@@ -71,12 +77,16 @@ body{
     width: fit-content;
     margin-top:15px;
 }
+.right-side3:hover{
+    background-color: rgb(65, 100, 168);
+}
 .button:hover{
     background-color: rgb(65, 100, 168);
 }
 .sec2{
-    padding-bottom: 40px;
-    max-width: 60vw;
+    padding-bottom: 60px;
+    padding-top:30px;
+    max-width: 80vw;
 }
 .title2{
     font-size: 36px;
@@ -90,9 +100,10 @@ body{
     gap: 50px;
     flex-wrap:wrap;
     justify-content:center;
+    margin-bottom:30px;
 }
 .info{
-    max-width: 170px;
+    max-width: 250px;
     display: flex;
     flex-direction: column;
 }
@@ -101,14 +112,19 @@ body{
     text-align:center;
 }
 .img2{
-    height:119px;
-    outline: 5px ridge rgb(0, 0, 0);
+    height:175px;
+    outline: 3px ridge rgb(0, 0, 0);
     border-radius:.4rem;
+    
+}
+
+.img2:hover {
+    transform:scale(1.05);
 }
 .sec3{
     background-color: #E5E7EB;
     padding:59px;
-    max-width: 60vw;
+    max-width: 80vw;
 }
 .full-bleed2 {
     box-shadow: 0 0 0 100vmax #E5E7EB;  
@@ -127,19 +143,30 @@ body{
 }
 .sec4{
     display: flex;
-    max-width: 60vw;
+    max-width: 50vw;
     justify-content: space-around;
     width: 100vw;
     background-color:#3882F6;
     padding:25px;
     padding-right:0;
     padding-left:0;
-    margin:50px;
+    margin:80px;
     border-radius:.4rem;
     align-items: center;
 }
-.right-side{
-    padding:auto
+.right-side3{
+    color:#F9FAf8;
+    background-color: #3882F6;
+    padding:4px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius:.5rem;
+    text-align: center;
+    width: fit-content;
+    margin-top:15px;
+    outline: 2px ridge white;
+    border-radius:.4rem;
+    
 }
 .footer{
     color:#aaacb0;
